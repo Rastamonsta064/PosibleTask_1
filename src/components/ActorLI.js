@@ -50,7 +50,7 @@ const ActorLi = ({index, a, setUpdated, updated, isRandomlyRating}) => {
                     <th scope="row">{index + 1}</th>
                     <th>{a.actorName}</th>
                     <th>Select new Rate:</th>
-                    <th><select value={newRate} className="form-select" onChange={(e) => setNewRate(e.target.value)}>
+                    <th><select value={a.rating} className="form-select" onChange={(e) => setNewRate(e.target.value)}>
                         <option value={1}>1</option>
                         <option value={2}>2</option>
                         <option value={3}>3</option>

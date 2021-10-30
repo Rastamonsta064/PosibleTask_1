@@ -1,16 +1,16 @@
 import {GET_ACTORS, RANDOM_RATING, SORT_BY_RATING, UPDATE_RATING} from "./actions";
 
 const initialState = [
-    {actorName: "Brad Pit", rating: 0},
-    {actorName: "Edward Norton", rating: 0},
-    {actorName: "Benissio Del Toro", rating: 0},
-    {actorName: "Jason Stathem", rating: 0},
-    {actorName: "Ray Liotta", rating: 0},
-    {actorName: "Will Smith", rating: 0},
-    {actorName: "Tommy Lee Jones", rating: 0},
-    {actorName: "George Cloney", rating: 0},
-    {actorName: "Tcheky Karyo", rating: 0},
-    {actorName: "Vincent Cassel", rating: 0},
+    {actorName: "Brad Pit", rating: 1},
+    {actorName: "Edward Norton", rating: 1},
+    {actorName: "Benissio Del Toro", rating: 1},
+    {actorName: "Jason Stathem", rating: 1},
+    {actorName: "Ray Liotta", rating: 1},
+    {actorName: "Will Smith", rating: 1},
+    {actorName: "Tommy Lee Jones", rating: 1},
+    {actorName: "George Cloney", rating: 1},
+    {actorName: "Tcheky Karyo", rating: 1},
+    {actorName: "Vincent Cassel", rating: 1},
 ];
 
 export const reducer = (state = [], action) => {
